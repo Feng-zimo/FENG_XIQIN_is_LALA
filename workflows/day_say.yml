@@ -1,0 +1,14 @@
+name: Daily Say Something
+
+on:
+  schedule:
+    # 每天 UTC 时间 12:00（即北京时间 20:00）
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  say:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a daily message
+        run: echo "冯希钦是lala"
