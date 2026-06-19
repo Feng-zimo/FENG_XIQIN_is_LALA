@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print a daily message
-        run: echo "冯希钦是lala"
+        run: echo "冯希钦是lala，助破产"
